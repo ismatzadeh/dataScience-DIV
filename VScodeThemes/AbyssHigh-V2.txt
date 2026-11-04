@@ -1,0 +1,133 @@
+{
+  "workbench.colorTheme": "Abyss",
+
+  "workbench.colorCustomizations": {
+    "[Abyss]": {
+      // Backgrounds
+      "editor.background": "#000a14",
+      "sideBar.background": "#000710",
+      "activityBar.background": "#000710",
+      "panel.background": "#000710",
+      "terminal.background": "#000a14",
+
+      // Text (soft off-white instead of pure white)
+      "foreground": "#dfdfdf",
+      "editor.foreground": "#dfdfdf",
+      "sideBar.foreground": "#dfdfdf",
+      "sideBarTitle.foreground": "#dfdfdf",
+      "sideBarSectionHeader.foreground": "#dfdfdf",
+      "activityBar.foreground": "#dfdfdf",
+      "tab.activeForeground": "#dfdfdf",
+      "tab.inactiveForeground": "#9bb7d4",
+      "titleBar.activeForeground": "#dfdfdf",
+      "statusBar.foreground": "#dfdfdf",
+      "panelTitle.activeForeground": "#dfdfdf",
+      "terminal.foreground": "#dfdfdf",
+      "list.activeSelectionForeground": "#dfdfdf",
+      "list.hoverForeground": "#dfdfdf",
+      "list.focusForeground": "#dfdfdf",
+      "editorLineNumber.foreground": "#9bb7d4",
+      "editorLineNumber.activeForeground": "#dfdfdf",
+
+      // Global borders (fallback for anything not listed below)
+      "contrastBorder": "#5f9fff",
+      "contrastActiveBorder": "#ff00ff",
+      "focusBorder": "#ff00ff",
+
+      // Steel blue: main structural dividers
+      "sideBar.border": "#5f9fff",
+      "panel.border": "#5f9fff",
+      "editorGroup.border": "#5f9fff",
+      "tab.border": "#5f9fff",
+      "editorGroupHeader.tabsBorder": "#5f9fff",
+      "activityBar.border": "#5f9fff",
+      "sideBarSectionHeader.border": "#5f9fff",
+      "panelSection.border": "#5f9fff",
+      "editorWidget.border": "#5f9fff",
+      "menu.border": "#5f9fff",
+      "breadcrumb.background": "#000710",
+
+      // Sidebar items (file tree / lists)
+      "list.hoverBackground": "#5f9fff22",
+      "list.activeSelectionBackground": "#4a004a",
+      "list.inactiveSelectionBackground": "#003a1a",
+      "list.focusOutline": "#ff00ff",
+      "list.focusAndSelectionOutline": "#ff00ff",
+      "list.inactiveFocusOutline": "#00ff66",
+      "tree.indentGuidesStroke": "#5f9fff",
+      "tree.inactiveIndentGuidesStroke": "#5f9fff66",
+
+      // Notebook: code and markdown cell borders
+      "notebook.cellBorderColor": "#5f9fff",
+      "notebook.focusedCellBorder": "#ff00ff",
+      "notebook.inactiveFocusedCellBorder": "#00ff66",
+      "notebook.selectedCellBorder": "#5f9fff",
+      "notebook.inactiveSelectedCellBorder": "#00ff66",
+      "notebook.focusedEditorBorder": "#ff8c00",
+      "notebook.cellInsertionIndicator": "#ff8c00",
+      "notebook.cellToolbarSeparator": "#00ff66",
+      "notebook.cellStatusBarItemHoverBackground": "#ff000033",
+      "notebook.selectedCellBackground": "#001a2e",
+      "notebook.cellEditorBackground": "#000a14",
+      "notebook.outputContainerBorderColor": "#00ff66",
+
+      // Orange: active tab and bracket match
+      "tab.activeBorderTop": "#ff8c00",
+      "tab.activeBorder": "#ff8c00",
+      "tab.unfocusedActiveBorderTop": "#ff8c00",
+      "editorBracketMatch.border": "#ff8c00",
+      "panelTitle.activeBorder": "#ff8c00",
+
+      // Magenta: focus, selection, active elements
+      "editor.selectionHighlightBorder": "#ff00ff",
+      "editor.findMatchBorder": "#ff00ff",
+      "editor.findMatchHighlightBorder": "#ff00ff88",
+      "activityBar.activeBorder": "#ff00ff",
+      "sash.hoverBorder": "#ff00ff",
+
+      // Green: title bar, status bar, inputs, notifications
+      "titleBar.border": "#00ff66",
+      "statusBar.border": "#00ff66",
+      "input.border": "#00ff66",
+      "dropdown.border": "#00ff66",
+      "notificationCenter.border": "#00ff66",
+      "notificationToast.border": "#00ff66",
+      "editorSuggestWidget.border": "#00ff66",
+      "editorHoverWidget.border": "#00ff66",
+      "debugToolBar.border": "#00ff66",
+
+      // Selection and cursor
+      "editor.selectionBackground": "#1b4f8a",
+      "editor.lineHighlightBackground": "#00000000",
+      "editor.lineHighlightBorder": "#5f9fff55",
+      "editorCursor.foreground": "#ffffff"
+    }
+  },
+
+  "editor.tokenColorCustomizations": {
+    "[Abyss]": {
+      "textMateRules": [
+        { "scope": ["comment"], "settings": { "foreground": "#8fb3d9", "fontStyle": "italic" } },
+        { "scope": ["keyword", "storage"], "settings": { "foreground": "#569cff" } },
+        { "scope": ["string"], "settings": { "foreground": "#7cfc8a" } },
+        { "scope": ["constant.numeric"], "settings": { "foreground": "#ffb86c" } },
+        { "scope": ["entity.name.function", "support.function"], "settings": { "foreground": "#ffff7f" } },
+        { "scope": ["variable.parameter"], "settings": { "foreground": "#7fdbff" } },
+        { "scope": ["support.type", "entity.name.type"], "settings": { "foreground": "#4ee2d0" } },
+        { "scope": ["variable", "variable.other", "variable.other.readwrite", "meta.definition.variable", "variable.other.object", "variable.other.property"], "settings": { "foreground": "#d7a8ff" } }
+      ]
+    }
+  },
+
+  "editor.semanticTokenColorCustomizations": {
+    "[Abyss]": {
+      "enabled": true,
+      "rules": {
+        "variable": "#d7a8ff",
+        "variable.readonly": "#ffb3d9",
+        "parameter": "#7fdbff",
+        "property": "#d7a8ff"
+      }
+    }
+  }
+}
